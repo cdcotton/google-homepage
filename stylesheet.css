@@ -36,9 +36,6 @@
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	position: absolute;
-	top: 20px;
-	right: 20px;
 }
 
 .navbar li {
@@ -52,4 +49,41 @@
 	font-family: Arial;
 	font-size: 13px;
 	color: #404040;
+}
+
+#upper {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#lower {
+	border-top: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+	height: 40px;
+	width: 2000px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+#lower_left {
+	position: absolute;
+	bottom: 12px;
+	left: 16px;
+}
+
+#lower_right {
+	position: absolute;
+	bottom: 12px;
+	right: 16px;
+}
+
+#lower_left li, #lower_right li {
+	margin-left: 13px;
+	margin-right: 13px;
+}
+
+#lower_left a, #lower_right a {
+	color: #666;
 }
